@@ -1,4 +1,3 @@
-#!/bin/bash
 c
 #include <stdio.h>
 int main() {
