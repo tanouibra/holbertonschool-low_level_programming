@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E VFILE.c
+gcc -E VFILE.c -o
