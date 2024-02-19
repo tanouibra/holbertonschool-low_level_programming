@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 int main() {
-	strcpy(str, "programming is like building a multilingual puzzle");
-	puts (string);
+	puts("programming is like building a multilingual puzzle");
 	return 0;
 }	
