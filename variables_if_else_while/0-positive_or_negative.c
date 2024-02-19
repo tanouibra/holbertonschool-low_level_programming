@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ *main - main block
+ * Return: 0
+ */
 int main() {
 int n;
 srand(time(0));
