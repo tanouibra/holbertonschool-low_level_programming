@@ -2,10 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /** 
- *main - main block 
+*  main - main block 
 *  This program will assign a random number to the variable n
-* betty style doc for function main goes there 
-* Return: 0 */
+*  betty style doc for function main goes there 
+*   Return: 0
+*   */
 int main(void)
 {
 	int n;
