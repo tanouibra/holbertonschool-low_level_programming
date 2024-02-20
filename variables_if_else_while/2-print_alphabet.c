@@ -1,11 +1,11 @@
-nclude <stdlib.h>
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 /**
- *main - main block
- * more headers goes there
- * betty style doc for function main goes there
- * Return: 0
+*main - main block
+* more headers goes there
+* betty style doc for function main goes there
+* Return: 0
  */
 int main()
 {
