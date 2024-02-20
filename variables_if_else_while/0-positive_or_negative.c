@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* main - main block */
+/*main - main block */
 /* betty style doc for function main goes there */
 int main(void)
 {
