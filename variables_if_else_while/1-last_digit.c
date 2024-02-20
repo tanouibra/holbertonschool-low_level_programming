@@ -2,32 +2,29 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - main block
- * more headers goes there
- * betty style doc for function main goes there
- * Return: 0
-  */
+*main - main block
+* more headers goes there
+* betty style doc for function main goes there
+* Return: 0
+ */
 int main(void)
 {
-	int n;
-
-	int digit;
+	int n, lastd;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
-	if (digit > 5)
-
+	lastd = n % 10;
+	if (lastd > 5)
 	{
-		printf("last digit of %d is %d and is greater 5\n", n, digit);
+		printf("Last digit of %d is %d and is greater than 5\n", n, lastd);
 	}
-	else if (digit == 0)
+	else if (lastd == 0)
 	{
-		printf("last digit of %d is %d is 0\n", n, digit);
+		printf("Last digit of %d is %d and is 0\n", n, lastd);
 	}
-	else (digit < 6)
+	else if (lastd < 6 && lastd != 0)
 	{
-		printf("last digit of %d is %d and is less than 6\n", n, digit);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastd);
 	}
 	return (0);
 }
