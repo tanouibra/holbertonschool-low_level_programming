@@ -3,6 +3,7 @@
 #include <time.h>
 /*main - main block */
 /* betty style doc for function main goes there */
+/* Return: 0 */
 int main(void)
 {
 int n;
