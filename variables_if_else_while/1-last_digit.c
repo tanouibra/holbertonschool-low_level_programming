@@ -2,16 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - main block
- * This program will assign a random number to the variable n
- * betty style doc for function main goes there
- * Return: 0
- */
+ *  *main - main block
+ *  * more headers goes there
+ *  * betty style doc for function main goes there
+ *  */
 int main(void)
 {
 	int n;
-       
-	int lastDigit = n % 10;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
