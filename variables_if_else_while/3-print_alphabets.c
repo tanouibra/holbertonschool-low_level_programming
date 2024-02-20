@@ -8,20 +8,17 @@
  */
 int main(void)
 {
-	char lowcase = "a";
-	char uppercase = "A";
+	char letter;
 
-	while (lowcase <= "z")
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{	
-		putchar(lowcase);
-		lowcase++;
+			putchar(letter);
 	}
-	while (uppercase <= "Z")
+	for (letter = 'A'; letter <= 'Z'; letter++)
 	{	
-		putchar(uppercase);
-		uppercase++;
+			putchar(letter);
 	}
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }	
