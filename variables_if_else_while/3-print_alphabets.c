@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
 *main - main block
-* Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line
+* Write a program that prints the alphabet
 * Retrun: 0
  */
 int main(void)
@@ -14,7 +14,7 @@ int main(void)
 	{
 		putchar(letter);
 	}
-	for (letter ='A'; letter <= 'Z'; letter++)
+	for (letter = 'A'; letter <= 'Z'; letter++)
 	{
 		putchar(letter);
 	}
