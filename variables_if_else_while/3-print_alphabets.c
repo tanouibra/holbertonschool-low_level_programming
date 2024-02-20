@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
 *main - main block
-* Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+* Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line
 * Retrun: 0
  */
 int main(void)
@@ -19,5 +19,6 @@ int main(void)
 		putchar(letter);
 	}
 	putchar('\n');
+
 	return (0);
-}	
+}
