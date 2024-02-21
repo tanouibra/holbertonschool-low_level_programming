@@ -1,4 +1,9 @@
 #include "main.h"
+/**
+ * main - main block
+ * putch
+ * Return: 0
+ */
 int main(void)
 {
 	_putchar('_');
