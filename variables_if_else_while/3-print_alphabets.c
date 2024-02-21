@@ -4,7 +4,7 @@
 /**
 *main - main block
 * Write a program that prints the alphabet
-* Retrun: 0
+* Return: 0
  */
 int main(void)
 {
