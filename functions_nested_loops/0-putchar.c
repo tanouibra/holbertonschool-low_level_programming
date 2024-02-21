@@ -1,7 +1,8 @@
-/*#include <main.h>*/
-#include <stdlib.h>
+#include "main.h"
+/**#include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
+*/
 int main(void)
 {
 	putchar('_');
