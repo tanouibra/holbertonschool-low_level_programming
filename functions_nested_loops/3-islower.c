@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int _islower - ckeck lowcase
+ * _islower - ckecks for lowcase character
  * @c: The character to be checked
  *  Return: 0 for lowcase character and 0 for anything else
  */
