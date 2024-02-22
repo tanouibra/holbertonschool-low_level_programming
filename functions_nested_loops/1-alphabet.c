@@ -1,16 +1,15 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - main block
  * alphabet avec _putchar
  * Return: 0
  */
 void print_alphabet(void)
-{	
-	char let = 'a',
+{
+	char let;
 
-	while (let <= 'z')
+	for (let = 'a';  let <= 'z'; let++)
 		_putchar(let);
-		let++;
 	_putchar('\n');
-	return (0);
+	/*return (0);*/
 }
