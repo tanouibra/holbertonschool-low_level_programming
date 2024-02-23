@@ -2,7 +2,6 @@
 #include <stdio.h>
 
 /**
- * main - main check
  * _abs - Computes the absolute value of a integer.
  * @n: The number to be computed
  * Return: 0
