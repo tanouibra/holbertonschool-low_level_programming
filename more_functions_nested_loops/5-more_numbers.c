@@ -4,26 +4,18 @@
  * more_numbers - Prints 10 times the numbers from 0 to 14
  * Return: void
  */
-void more_numbers(void) {
-    int i, j;
+void more_numbers(void)
+{
+	int a, b;
 
-    for (i = 0; i < 9; i++) {
-        for (j = 0; j <= 14; j++) {
-            if (j < 10) {
-                _putchar(j + '0');
-            } else {
-                _putchar((j / 10) + '0');
-                _putchar((j % 10) + '0');
-            }
-        }
-        _putchar('\n');
-    }
-    for (j = 0; j <= 14; j++) {
-        if (j < 10) {
-            _putchar(j + '0');
-        } else {
-            _putchar((j / 10) + '0');
-            _putchar((j % 10) + '0');
-        }
-    }
+	for (a = 0; a < 10; a++)
+	{
+		for (b = 0; b < 15; b++)
+		{
+			if (b > 9)
+			_putchar(b / 10 + '0');
+			_putchar(b % 10 + '0');
+		}
+		_putchar('\n');
+	}
 }
