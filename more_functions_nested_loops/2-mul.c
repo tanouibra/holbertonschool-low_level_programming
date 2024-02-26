@@ -2,7 +2,8 @@
 
 /**
  * mul - Fonction multiplies two integers
- * @a, @b: Two integers to be multipliate
+ * @a: Fist integer
+ * @b: second integer
  * Return: a*b
  */
 int mul(int a, int b)
