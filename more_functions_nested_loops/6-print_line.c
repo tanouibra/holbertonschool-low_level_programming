@@ -5,15 +5,26 @@
  * @n: The number of times the caracter _ should be printed
  * Return: void
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
-	int i;
+	int c, i;
 
-	if (n <= 0)
+	c = 0;
+
+	while (n > 0)
+	{
+		i = c;
+		while (i > 0)
+		{
+			_putchar(' ');
+			i--;
+		}
+		_putchar('\\');
 		_putchar('\n');
-
-	for (i = 0; i < n; i++)
-		_putchar('_');
-
+		c++;
+		n--;
+	}
+	if (c < 1)
+		_putchar('\n');
 }
 
