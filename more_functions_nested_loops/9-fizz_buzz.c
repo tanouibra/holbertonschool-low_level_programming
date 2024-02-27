@@ -3,9 +3,7 @@
 
 /**
  * main - main block
- *fizz_buzz - Fonction that prints numbers from 1 to 100
- *@i: Number to be printed
- *Return: void
+ *Return: 0
  */
 int  main(void)
 {
