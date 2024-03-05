@@ -6,7 +6,7 @@
  * Return: sqrt number
  */
 int helper(int n, int i)
-{	
+{
 	if (i * i == n)
 		return (i);
 	if (i * i > n)
