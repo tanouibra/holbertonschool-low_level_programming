@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
+ * helper - function recursively finds the square root of n or returns -1
  * _sqrt_recursion - returns the natural square root of a number.
+ * @i: is an incrementally updated variable within helper.
  * @n: number
  * Return: sqrt number
  */
