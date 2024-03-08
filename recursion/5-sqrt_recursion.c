@@ -1,27 +1,30 @@
 #include "main.h"
-
 /**
- * helper - function recursively finds the square root of n or returns -1
- * _sqrt_recursion - returns the natural square root of a number.
- * recursion - is an incrementally updated variable within helper.
- * @i: is an incrementally updated variable within helper.
- * @n: number
- * Return: sqrt number
+ * find_root - calculates i**i to check with n.
+ * @n: base number.
+ * @i: iterator number.
+ * Return: i.
  */
-int helper(int n, int i)
+int find_root(int n, int i)
 {
 	if (i * i == n)
 		return (i);
-	if (i * i > n)
+	if (i * i <= n)
+		return (find_root(n, i + 1));
+	else
 		return (-1);
-	return (helper(n, i + 1));
 }
-
+/**
+ * _sqrt_recursion - calculates the natural square root of n.
+ * @n: base number.
+ *
+ * Return: the square root of n.
+ */
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
 		return (-1);
 	if (n == 0 || n == 1)
 		return (n);
-	return (helper(n, 1));
+	return (find_root(n, 2));
 }
