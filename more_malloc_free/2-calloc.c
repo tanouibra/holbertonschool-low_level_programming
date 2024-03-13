@@ -22,7 +22,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	while (i = 0; i < ar_size; i++)
 	{
 		ar[i] = 0;
-		i++;
 	}
 	return (ar);
 }
